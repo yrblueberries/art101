@@ -4,12 +4,14 @@
 
 /* we can select an html element tag, in this case "body" will apply to the whole document */
 body {
-  background-color: #2510e3;
+  background-image: linear-gradient(rgb(0, 115, 255), rgb(49, 6, 220));
 }
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: 'Londrina Sketch';
+  font-family: cursive ;
+  font-style:italic;
+  color:azure;
 }
 p {
   font-family: 'Times New Roman', Times, serif;
@@ -27,7 +29,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #0b0435;
-  background-color: #2c0c95;
+  background-image: linear-gradient(rgb(2, 55, 120), rgb(28, 4, 123));
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -35,7 +37,7 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #200639;
-  background-color: #7c59d6;
+  background-image: linear-gradient(rgb(79, 137, 245), rgb(22, 76, 177));
 }
 #links{
 color:chartreuse;
@@ -43,6 +45,7 @@ color:chartreuse;
 
 }
 .button{
-
-
+border-radius: 4px;
+background-color: #07d631;
+border:#073504;
 }
