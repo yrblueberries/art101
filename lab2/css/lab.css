@@ -4,8 +4,8 @@
 
 body{
 
-  background-color: #005d74;
-
+ 
+  background-image: linear-gradient(rgb(0, 115, 255), rgb(49, 6, 220));
 
 }
 
@@ -16,7 +16,7 @@ body{
     padding: 10px;
     margin-bottom: 10px;
     border: solid 1px #888;
-    background-color: #7bb4e9;
+    background-image: linear-gradient(to right,rgb(107, 169, 244), rgb(122, 90, 248));
    
   }
   #title{
@@ -33,5 +33,9 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 
 }
 
+::selection{
+color:#0f944d;
+background:#074c27 ;
 
+}
 
