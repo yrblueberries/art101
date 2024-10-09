@@ -9,7 +9,10 @@ body {
 
 /* we can have rules apply to multiple elements at the same time with commas */
 h1,h2,h3 {
-  font-family: sans-serif;
+  font-family: Londrina Sketch;
+}
+p {
+  font-family: 'Times New Roman', Times, serif;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -24,7 +27,7 @@ h1 {
   margin: 10px;
   padding: 10px;
   border: solid 1px #888;
-  background-color: #16bed8;
+  background-color: #2c0c95;
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -32,5 +35,5 @@ h1 {
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-color: #390cab;
+  background-color: #7c59d6;
 }
