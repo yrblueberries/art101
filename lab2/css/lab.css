@@ -13,7 +13,7 @@ body{
   display: inline-block;
   padding: 10px;
   
-
+  margin-bottom: 10px;
   border: solid 1px #888;
   background-image: linear-gradient(to right,rgb(107, 169, 244), rgb(122, 90, 248));
   border-radius: 8px;
@@ -26,7 +26,7 @@ body{
   display: inline-block;
   padding: 10px;
   float:right ;
-
+  margin-bottom: 10px;
   border: solid 1px #888;
   background-image: linear-gradient(to right,rgb(107, 169, 244), rgb(122, 90, 248));
   border-radius: 8px;
@@ -44,18 +44,20 @@ body{
     border-radius: 8px;
   }
   #title{
+    text-align: center;
  font-family: cursive ;
  font-style:italic;
  color:azure;
- 
+ font-variant: small-caps
 
   }
   h2{
     font-family: cursive ;
     font-style:italic;
+    font-variant: small-caps
   }
 p {
-font-family:fantasy;
+font-family:Trebuchet MS, sans-serif;
 
 
 
