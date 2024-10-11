@@ -28,7 +28,7 @@ body{
   float:right ;
   margin-bottom: 10px;
   border: solid 1px #888;
-  background-image: linear-gradient(to right,rgb(107, 169, 244), rgb(122, 90, 248));
+  background-image: linear-gradient(to left,rgb(107, 169, 244), rgb(122, 90, 248));
   border-radius: 8px;
   width:45%; 
   border:1px solid; 
