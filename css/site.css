@@ -27,6 +27,7 @@ h1 {
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
+  border-radius: 8px;
   margin: 10px;
   padding: 10px;
   border: solid 1px #0b0435;
@@ -35,6 +36,7 @@ h1 {
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
+  border-radius: 8px;
   padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #200639;
