@@ -12,6 +12,7 @@ h1,h2,h3 {
   font-family: cursive ;
   font-style:italic;
   color:azure;
+  
 }
 p {
   font-family: 'Times New Roman', Times, serif;
@@ -38,14 +39,4 @@ h1 {
   margin-bottom: 10px;
   border: solid 1px #200639;
   background-image: linear-gradient(rgb(79, 137, 245), rgb(22, 76, 177));
-}
-#links{
-color:chartreuse;
-
-
-}
-.button{
-border-radius: 4px;
-background-color: #07d631;
-border:#073504;
 }

@@ -3,4 +3,17 @@
 .cat-photo {
   margin: 10px;
   max-width: 500px;
+  border-radius: 8px;
+  border:#073504;
+  border-width: 10px;
 }
+#links{
+  color:chartreuse;
+  
+  
+  }
+  .button{
+  border-radius: 4px;
+  background-color: #07d631;
+  
+  }
