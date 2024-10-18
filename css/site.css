@@ -15,7 +15,10 @@ h1,h2,h3 {
   
 }
 p {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  font-size: large;
+
+  word-spacing: 1px;
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -37,8 +40,10 @@ h1 {
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   border-radius: 8px;
-  padding: 10px;
   margin-bottom: 10px;
   border: solid 1px #200639;
   background-image: linear-gradient(rgb(79, 137, 245), rgb(22, 76, 177));
+  padding: 10px;
+  padding-right: 10px;
+ 
 }
