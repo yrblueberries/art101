@@ -7,6 +7,16 @@
   border:#073504;
   border-width: 10px;
 }
+.htmlicon{
+  margin: 10px;
+  max-width: 100px;
+  border-radius: 8px;
+  border:#073504;
+  border-width: 10px;
+
+
+}
+
 #links{
   color:chartreuse;
   
