@@ -14,11 +14,15 @@ h1,h2,h3 {
   color:azure;
   
 }
-p {
+p{
   font-family: Helvetica, Verdana, Arial, "san serif";
   font-size: large;
 
   word-spacing: 1px;
+}
+.text{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  
 }
 
 /* and we can have rules that overlap other rules, both take effect */
@@ -46,4 +50,12 @@ h1 {
   padding: 10px;
   padding-right: 10px;
  
+}
+.pic{
+  margin: 10px;
+  max-width: 250px;
+  border-radius: 8px;
+  border:#073504;
+  border-width: 10px;
+  
 }
