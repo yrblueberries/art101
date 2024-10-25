@@ -20,6 +20,22 @@ p{
 
   word-spacing: 1px;
 }
+.Codelook{
+  font-family: Helvetica, Verdana, Arial, "san serif";
+  -webkit-text-stroke-width: .5px;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  font-size: 150%;
+   color:white;
+   padding: 10px;
+   margin-bottom: 10px;
+   padding: 10px;
+   padding-right: 10px;
+ display: inline-block;
+ padding-right: 50px;
+   border: solid 1px #200639;
+   background-color: black;
+}
 .text{
   font-family: Helvetica, Verdana, Arial, "san serif";
   
