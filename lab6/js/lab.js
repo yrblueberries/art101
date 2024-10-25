@@ -1,10 +1,10 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Liam Logsdon
+// Date: 10/24/2024
 
 // Constants
 
-myTransport = ["SL1 Saturn","Electric unicycle","bus","rides from friends" ]
+myTransport = ["SL1 Saturn","Electric unicycle","bus","rides from friends"]
 
 myMainRide = {
   make: "Saturn",
@@ -19,5 +19,5 @@ myMainRide = {
 // Functions
 document.writeln("Kinds of transport I use: ", myTransport, "</br>")
 
-document.writeln("My Main Ride: <pre>",
-  JSON.stringify(myMainRide, null, '\t'), "</pre>" );
+document.writeln("My Main Ride: <pre>", 
+  JSON.stringify(myMainRide, null, '\t'), "</pre>");
