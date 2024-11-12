@@ -7,3 +7,14 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  #output{
+font-size: 50px;
+color: white;
+outline: 5px black;
+    flex-wrap: wrap;
+   display: inline-block;
+  }
+  #button{
+    flex-wrap: wrap;
+   
+  }
