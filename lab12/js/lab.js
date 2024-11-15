@@ -1,21 +1,31 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Liam Logsdon
+// Date: 11/14/24
 
 // Constants
 
 // Functions
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
+function sortingHat(str){
+len = str.length;
+mod = len % 4;
+if (mod == 0){
+   return "Gryffindor"
+}
+else if (mod == 1){
+  return "Ravenclaw"
+}
+else if (mod == 2){
+  return "Slytherin"
+}
+else if (mod == 3){
+  return "Hufflepuff"
+}
 }
 
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
+$("#button").click(function(){
+  var name = $("#input").val()
+  var house = sortingHat(name);
+  $("#output").html("<h1>" + house + "</h1>")
+})
 
-// let's get this party started
-main();
