@@ -13,12 +13,15 @@ h1,h2,h3 {
   font-style:italic;
   color:azure;
   
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 p{
   font-family: Helvetica, Verdana, Arial, "san serif";
   font-size: large;
 
   word-spacing: 1px;
+  
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.225);
 }
 .codelook{
   font-family: Helvetica, Verdana, Arial, "san serif";
@@ -46,6 +49,8 @@ h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
   font-size: 200%;
+  
+ 
 }
 
 /* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
@@ -55,6 +60,8 @@ h1 {
   padding: 10px;
   border: solid 1px #0b0435;
   background-image: linear-gradient(rgb(2, 55, 120), rgb(28, 4, 123));
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
@@ -65,6 +72,8 @@ h1 {
   background-image: linear-gradient(rgb(79, 137, 245), rgb(22, 76, 177));
   padding: 10px;
   padding-right: 10px;
+  
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
  
 }
 .pic{
