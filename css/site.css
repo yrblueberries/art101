@@ -43,8 +43,6 @@ p{
   font-family: Helvetica, Verdana, Arial, "san serif";
   
 }
-
-/* and we can have rules that overlap other rules, both take effect */
 h1 {
   letter-spacing: 5px;
   word-spacing: 5px;
@@ -53,7 +51,6 @@ h1 {
  
 }
 
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
 #content {
   border-radius: 8px;
   margin: 10px;
@@ -64,7 +61,6 @@ h1 {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
   border-radius: 8px;
   margin-bottom: 10px;
