@@ -7,3 +7,49 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.image-results {
+    margin-top: 20px;
+}
+
+.image-item {
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.image-item img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-item p {
+    font-size: 14px;
+    color: #333;
+}
